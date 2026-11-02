@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "barakusyn-quantize_jd198"
+name = "barakusyn-function_call_schema_signature_match"
 version = "0.1.0"
 description = "通过字符级与结构级特征识别量化与稀疏化研究员·函数调用的 schema 校验的痕迹，给出密度与命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://barakusyn.github.io"
-Repository = "https://github.com/barakusyn/quantize_jd198"
-Issues = "https://github.com/barakusyn/quantize_jd198/issues"
+Repository = "https://github.com/barakusyn/function_call_schema_signature_match"
+Issues = "https://github.com/barakusyn/function_call_schema_signature_match/issues"
 
 [project.scripts]
-quantize_jd198 = "quantize_jd198:main"
+function_call_schema_signature_match = "function_call_schema_signature_match:main"
 
 [tool.setuptools]
-py-modules = ["quantize_jd198"]
+py-modules = ["function_call_schema_signature_match"]
